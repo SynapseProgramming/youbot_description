@@ -15,16 +15,16 @@
         <ray>
             <scan>
                 <horizontal>
-                    <samples>150</samples>
-                    <resolution>1.0</resolution>    
+                    <samples>1000</samples>
+                    <resolution>0.6</resolution>
                     <min_angle>${min_angle}</min_angle>
                     <max_angle>${max_angle}</max_angle>
                 </horizontal>
             </scan>
             <range>
 				<min>0.05</min>
-				<max>5.6</max>
-				<resolution>0.36</resolution>
+				<max>50.0</max>
+				<resolution>0.4</resolution>
 			</range>
         </ray>
 
