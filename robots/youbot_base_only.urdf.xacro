@@ -34,7 +34,7 @@
   <xacro:youbot_base name="base"/>
 
   <!-- base laser front -->
-  <xacro:hokuyo_urg04_laser name="base_laser_front" parent="base" ros_topic="scan" update_rate="20" min_angle="0" max_angle="6.279">
+  <xacro:hokuyo_urg04_laser name="base_laser_front" parent="base" ros_topic="base_scan" update_rate="20" min_angle="0" max_angle="6.279">
     <origin xyz="0 0 0.15" rpy="0 0 0"/>
   </xacro:hokuyo_urg04_laser>
 
