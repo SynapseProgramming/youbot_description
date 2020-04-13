@@ -16,7 +16,7 @@
             <scan>
                 <horizontal>
                     <samples>1000</samples>
-                    <resolution>0.4</resolution>
+                    <resolution>0.6</resolution>
                     <min_angle>${min_angle}</min_angle>
                     <max_angle>${max_angle}</max_angle>
                 </horizontal>
