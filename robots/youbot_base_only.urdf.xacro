@@ -34,16 +34,14 @@
   <xacro:youbot_base name="base"/>
 
   <!-- base laser front -->
-  <xacro:hokuyo_urg04_laser name="base_laser_front" parent="base" ros_topic="base_scan" update_rate="20" min_angle="0" max_angle="6.279">
-    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+  <xacro:hokuyo_urg04_laser name="base_laser_front" parent="base" ros_topic="scan_fl" update_rate="20" min_angle="-2.35619449019" max_angle="2.35619449019">
+    <origin xyz="0.2 0.2 0.15" rpy="0 0 0.785"/>
   </xacro:hokuyo_urg04_laser>
 
 
   <!-- base laser rear -->
-<!--
-  <xacro:hokuyo_urg04_laser name="base_laser_rear" parent="base" ros_topic="scan" update_rate="15" min_angle="-1.57" max_angle="1.57">
-    <origin xyz="-0.3 0 -0.03" rpy="0 0 3.14159"/>
+  <xacro:hokuyo_urg04_laser name="base_laser_rear" parent="base" ros_topic="scan_br" update_rate="20" min_angle="-2.35619449019" max_angle="2.35619449019">
+    <origin xyz="-0.2 -0.2 0.15" rpy="0 0 -2.355796"/>
   </xacro:hokuyo_urg04_laser>
--->
 
 </robot>
